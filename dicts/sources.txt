@@ -1,0 +1,11 @@
+English: MacOS dictionary gile
+
+French: https://github.com/Taknok/French-Wordlist
+
+Spanish: https://github.com/bitcoin/bips/blob/master/bip-0039/spanish.txt
+--Beware: the encodings here are off and had to be fixed,
+--A relevant StackOverflow: https://stackoverflow.com/questions/55537298/how-was-this-json-strings-unicode-badly-encoded-and-how-can-i-reverse-it
+
+Latin: https://petscan.wmflabs.org/
+
+Italian: https://github.com/napolux/paroleitaliane/blob/master/paroleitaliane/60000_parole_italiane.txt

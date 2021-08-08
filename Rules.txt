@@ -1,0 +1,18 @@
+Entropic Hangman is a modification of Hangman. Each time the user guesses a correct letter, the computer "randomizes" the word, potentially switching to a new word of the same length that contains all the known letters of the previous word (permuted) but new unknown letters (perhaps including letters that have been guessed in previous rounds, even if they were correct guesses). For instance:
+
+__ __ __ __ (sate)
+
+Guess: a --> Randomize
+
+a __ __ __ (ants)
+Guess e; guess o; guess e (Already guessed!); guess l; guess n --> Randomize
+
+__ a n __ (land)
+Guess e; guess l --> Randomize
+
+a l __ y (ally)
+Guess l --> Win!
+
+By default the selected words are in English, but the dictionary can switch to (or mix-and -match among) Spanish, French, Italian, and Latin (though without accents). To add a new language, put a list of line-separated words into a .txt prefixed with "d_" (e.g., "d_Portuguese.txt") and place the file into the dicts directory.
+
+Vulgar words have not been filtered.

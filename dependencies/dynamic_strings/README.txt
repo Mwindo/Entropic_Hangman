@@ -1,0 +1,3 @@
+This is a "toy" static library for string and especially string array manipulation in C. I call it a "toy" library because, while it includes a fairly extensive set of useful features, it needs more robust error handling and testing. (There is a good start to the latter in dsa_tests.c, but it lacks granularity and doesn't include tests for anything in ds_str_funcs.c).
+
+Only "dynamic_strings.h" should be included in projects that use the library.
