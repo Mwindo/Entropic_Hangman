@@ -1,5 +1,5 @@
 /* dsa_tests.c - functions to test the appropriate behavior of the dynamic_string_array API */
-/* These are certainly not foolproof (e.g. certain edge cases are not tested for), but that seemed excessive for a simple personal library */
+/* These are just a first line of defense and are not foolproof (e.g. several edge cases are not tested for)! */
 
 #include <stdio.h>
 #include <stdlib.h>
