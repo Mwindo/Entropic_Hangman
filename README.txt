@@ -1,6 +1,6 @@
 Entropic Hangman was tested on an Intel Mac but should run on any POSIX system.
 
-To build, open Terminal, cd to this directory, and type make.
+To build, open a shell, cd to this directory, and type make.
 
 To run, cd to this directory and type ./entropic_hangman.
 
