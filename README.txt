@@ -7,7 +7,7 @@ To run, cd to this directory and type ./entropic_hangman.
 Code is in the src directory; game_menu.c is the entry point. Word lists are in the dicts directory.
 
 The goals for this project:
-• Build a simple C terminal application from scratch to practice C fundamentals: string manipulation, file I/O, memory allocation and pointer operations, etc.
+• Build a simple C shell application from scratch to refresh my C fundamentals: string manipulation, file I/O, memory allocation and pointer operations, etc.
 • Implement a simple directory structure with a Makefile
 • Design and incorporate a simple library
 • Write clean code
