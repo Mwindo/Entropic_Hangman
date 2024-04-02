@@ -12,7 +12,7 @@ The goals for this project:
 • Design and incorporate a simple library
 • Write clean code
 
-All of the goals were fulfilled except, in some instances, the last. Certain parts of the code are better (e.g., Levenshteiner or dynamic_string_array) than others (e.g., game_menu or unicode_helper), but the opportunity cost of going through to refine things seemed too high given everything I still want to learn/practice and the relative unimportance of the project. (As Valéry wrote: un ouvrage n’est jamais achevé . . . mais abandonné.) Examples of what I would do if I *did* decide to refine things:
+All of the goals were fulfilled except, in some instances, the last. [Edit from years later: I think my standards of clean code have increased considerably!] Certain parts of the code are better (e.g., Levenshteiner or dynamic_string_array) than others (e.g., game_menu or unicode_helper), but the opportunity cost of going through to refine things seemed too high given everything I still want to learn/practice and the relative unimportance of the project. (As Valéry wrote: un ouvrage n’est jamais achevé . . . mais abandonné.) Examples of what I would do if I *did* decide to refine things:
 • Refactor the main source code and break it into smaller files. Break longer functions apart. Make sure coding conventions across the project are consistent.
 • Include better error handling. Add more comments.
 • Create an abstract menu template with centralized input handling.
